@@ -1,0 +1,11 @@
+
+name = "whatsapp-cloudflare-workers-api-work"
+main = "./Example/example.ts"
+compatibility_date = "2025-02-24"
+compatibility_flags = [ "nodejs_compat_v2" ]
+logpush = true
+
+
+[[kv_namespaces]]
+binding = 'KV_whatsappCloudflareWorkers'
+id = 'REPLACE_WITH_YOUR_KV_NAMESPACE_ID'
